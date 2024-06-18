@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+:root{
+    --dark-blue: hsl(218, 44%, 22%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --light-gray:hsl(212, 45%, 89%);
+    --white:hsl(0, 0%, 100%);
+    --text-400-weight: 400;
+    --text-700-weight: 700;
+}
+
+body{
+    background-color: var(--grayish-blue);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.barcode-frame{
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+    height: 380px;  
+    width: 240px;
+    border-radius: 8px;
+    background-color: var(--white);
+    box-shadow: var(--light-gray);
+}
+
+ul{
+    list-style: none;
+}
+
+#Barcode{
+    height: 240px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+p{
+    width: fit-content;
+    text-align: center;
+}
+
+#weight-700{
+    font-weight: var(--text-700-weight);
+    color: var(--dark-blue);
+}
+
+#weight-400{
+    font-weight: var(--text-400-weight);
+    color: var(--grayish-blue);
+    font-size: x-small;
+}
